@@ -8,6 +8,5 @@ def solution(x: np.array) -> float:
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    x_mean = x.mean()
-    result = 2*x_mean/(63^2)
-    return result # Ваш ответ
+    
+    return (2*x/(63^2)).mean() # Ваш ответ
